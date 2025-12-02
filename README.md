@@ -1,3 +1,6 @@
+Project implements Solvians Java Case Study with ISIN generator, certificate updates, multithreading, and full unit tests.
+
+
 # Solvians Java Case Study
 
 ## Introduction – Feed Generator
@@ -47,3 +50,5 @@ E = 14	J = 19	O = 24	T = 29	Y = 34
   - Finally, collect and print the lines of generated certificate updates
 
 We will run our own tests on your code so bear that in mind when designing classes
+
+
