@@ -1,5 +1,6 @@
 package com.solvians.showcase;
 
+import java.util.Locale;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class CertificateUpdate
@@ -118,7 +119,7 @@ public class CertificateUpdate
     @Override
     public String toString()
     {
-        return String.format("%d,%s,%.2f,%d,%.2f,%d", timeStamp, isin, bidPrice, bidSize, askPrice, askSize);
+        return String.format(Locale.US,"%d,%s,%.2f,%d,%.2f,%d", timeStamp, isin, bidPrice, bidSize, askPrice, askSize);
     }
 
     public String getIsin()
